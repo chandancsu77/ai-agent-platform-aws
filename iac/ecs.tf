@@ -1,6 +1,6 @@
 module "ecs_cluster" {
   source  = "terraform-aws-modules/ecs/aws//modules/cluster"
-  version = "~> 6.0"
+  version = "~> 5.11.0"
 
   name = var.name
   tags = var.tags
